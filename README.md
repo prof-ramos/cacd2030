@@ -48,6 +48,23 @@ cacd2030/
 
 🚧 Em planejamento
 
+## Como Usar
+
+### Marcar Progresso
+
+Edite o arquivo `planejamento/edital-conteudos.md` e troque:
+- `- [ ]` → `- [x]` (quando estudar o tópico)
+
+### Ver Progresso
+
+Peça ao James: **"qual meu progresso no CACD?"**
+
+Ou rode manualmente:
+```bash
+cd cacd2030/scripts
+python3 progresso.py
+```
+
 ## Links Úteis
 
 - [Edital CACD 2026](https://www.cespe.unb.br/concursos/cacd_2026/)
