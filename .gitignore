@@ -10,3 +10,6 @@ Thumbs.db
 # Temp
 *.tmp
 *.temp
+
+# OMC state files
+.omc/
