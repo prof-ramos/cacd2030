@@ -52,8 +52,14 @@ cacd2030/
 
 ### Marcar Progresso
 
-Edite o arquivo `planejamento/edital-conteudos.md` e troque:
-- `- [ ]` → `- [x]` (quando estudar o tópico)
+**Opção 1: Excel (recomendado)**
+1. Abra `recursos/CACD2026_checklist.xlsx`
+2. Marque `x` na coluna **D (Estudado)** para tópicos estudados
+3. Salve o arquivo
+
+**Opção 2: Markdown**
+1. Edite `planejamento/edital-conteudos.md`
+2. Troque `- [ ]` → `- [x]` nos tópicos estudados
 
 ### Ver Progresso
 
@@ -62,7 +68,8 @@ Peça ao James: **"qual meu progresso no CACD?"**
 Ou rode manualmente:
 ```bash
 cd cacd2030/scripts
-python3 progresso.py
+python3 progresso_excel.py  # Lê do Excel
+python3 progresso.py        # Lê do Markdown
 ```
 
 ## Links Úteis
