@@ -1,0 +1,2 @@
+# OMC state files - contains session/cache data with absolute paths
+.omc/state/
